@@ -8,13 +8,13 @@ def BMR_calc(weight, height, age, sex):
 def kcal_maintain(BMR, activity):
     if activity == "1":
         return (float(BMR) * 1.2)
-    elif activity == 2:
+    elif activity == "2":
         return (float(BMR) * 1.375)
-    elif activity == 3:
+    elif activity == "3":
         return (float(BMR) * 1.55)
-    elif activity == 4:
+    elif activity == "4":
         return (float(BMR) * 1.725)
-    elif activity == 5:
+    elif activity == "5":
         return (float(BMR) * 1.9)
 
 print ("We will now calculate the amount of calories required to maintain your weight.")
@@ -38,8 +38,5 @@ activity = input('On a scale of 1 to 5, how active are you?')
 x = kcal_maintain(BMR,activity)
 
 
-
-
-
-print ("In order to maintain your weight, you should consume %f Calories" % x)
+print ("In order to maintain your weight, you should consume %f Calories per day" % x)
 
