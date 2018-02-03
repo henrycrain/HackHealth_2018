@@ -32,7 +32,7 @@ def AskBMI()
 
 activity = input('On a scale of 1 to 5, how active are you?')
 
-x = kcal_maintain(BMR,activity)
+x = kcal_maintain(AskBMI,activity)
 
 print ("In order to lose one pound per week, you smhould consume %f Calories per day" % (x-500))
 print ("In order to lose half a pound per week, you should consume %f Calories per day" % (x-250))
