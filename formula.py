@@ -17,7 +17,7 @@ def kcal_maintain(BMR, activity):
     elif activity == "5":
         return (float(BMR) * 1.9)
 
-def AskBMI()
+def AskBMI():
     print ("We will now calculate the amount of calories required to maintain your weight.")
     sex = input("Are you male (enter 'm') or female (enter 'f')?")
     sex.lower()
