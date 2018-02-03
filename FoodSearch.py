@@ -27,11 +27,12 @@ while active != 0:
     else:
         active = 0
 
-
+print()
 print("Total Calories: ", TotalCalories, "Calories")
 print("Total Fat: ", TotalFat, "g")
 print("Total Sodium: ", TotalSodium, "mg")
 print("Total Carbs: ", TotalCarbs, "g")
 print("Total Protein: ", TotalProtein, "g")
+print()
 
 

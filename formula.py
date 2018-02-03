@@ -18,6 +18,7 @@ def kcal_maintain(BMR, activity):
         return (float(BMR) * 1.9)
 
 print ("We will now calculate the amount of calories required to maintain your weight.")
+print()
 sex = input("Are you male (enter 'm') or female (enter 'f')?")
 sex.lower()
 if sex != 'm' and sex!= 'f':
@@ -37,5 +38,5 @@ print ("In order to lose one pound per week, you should consume %f Calories per 
 print ("In order to lose half a pound per week, you should consume %f Calories per day" % (x-250))
 print ("In order to maintain your weight, you should consume %f Calories per day" % x)
 print ("In order to gain half a pound per week, you should consume %f Calories per day" % (x+250))
-print ("In order to gain one pound per week, you should consue %f Calories per day" % (x+500))
+print ("In order to gain one pound per week, you should consume %f Calories per day" % (x+500))
 print()

@@ -7,6 +7,7 @@ if len(continueprogram) >= 0:
     print()
     import FoodSearch
 
+import maxrecintake
 
 
 
