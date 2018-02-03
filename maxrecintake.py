@@ -15,21 +15,21 @@ max_protein = 50 * formula.x / 2000
 
 
 if max_fat < FoodSearch.TotalFat:
-    print("Max recommended Fat: ", max_fat, "g - You are over your daily recommended intake.")
+    print("Max recommended Fat: ", max_fat, "g - You are over your recommended daily intake.")
 else:
     print("Max recommended Fat: ", max_fat, "g")
 
 if max_sodium < FoodSearch.TotalSodium:
-    print("Max recommended Sodium: ", max_sodium, "mg - You are over your daily recommended intake.")
+    print("Max recommended Sodium: ", max_sodium, "mg - You are over your recommended daily intake.")
 else:
     print("Max recommended Sodium: ", max_sodium, "mg")
 
 if max_carbs < FoodSearch.TotalCarbs:
-    print("Max recommended Carbs: ", max_carbs, "g - You are over your daily recommended intake.")
+    print("Max recommended Carbs: ", max_carbs, "g - You are over your recommended daily intake.")
 else:
     print("Max recommended Carbs: ", max_carbs, "g")
 
 if max_protein < FoodSearch.TotalProtein:
-    print("Max recommended Protein: ", max_protein, "g - You are over your daily recommended intake.")
+    print("Max recommended Protein: ", max_protein, "g - You are over your recommended daily intake.")
 else:
     print("Max recommended Protein: ", max_protein, "g")
