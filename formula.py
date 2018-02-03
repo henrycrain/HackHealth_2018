@@ -19,6 +19,8 @@ def kcal_maintain(bmr, activity):
         return float(bmr) * 1.9
 
 
+print("Welcome to DTrack")
+print()
 print("We will now calculate the amount of calories required to maintain your weight.")
 print()
 user_sex = input("Are you male (enter 'm') or female (enter 'f')?")
