@@ -7,7 +7,7 @@ foods = {"PizzaSlice" : [275, 10, 550, 34, 12], "Cheeseburger" : [460, 22, 570, 
          "Pasta" : [600, 8, 960, 108, 20], "Soda" : [150, 0, 30, 41, 0],
          "Cookies" : [120, 6, 126, 15, 2], "FrenchFries" : [421, 22, 389, 52, 5],
          "WhiteRice" : [206, 0.4, 2, 45, 4], "Banana" : [105, 0.4, 1, 27, 1],
-         "Hamburger" : [352, 17, 497, 29, 20], "SkimMilk" : [90, 0, 130, 13, 8]
+         "Hamburger" : [352, 17, 497, 29, 20], "SkimMilk" : [90, 0, 130, 13, 8],
          "WholeMilk" : [150, 8, 125, 12, 8], "Omelette" : [94, 7, 95, 0.4, 6],
          "ChickenNoodleSoup" : [87, 2.9, 343, 8, 6], "OrangeJuice" : [111, 0.5, 2, 26, 1.7],
          "PB&JSandwich" : [189, 8, 227, 26, 3], "Yogurt" : [100, 0.7, 61, 6, 17],
