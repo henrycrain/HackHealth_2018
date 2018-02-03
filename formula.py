@@ -17,20 +17,17 @@ def kcal_maintain(BMR, activity):
     elif activity == "5":
         return (float(BMR) * 1.9)
 
-print ("We will now calculate the amount of calories required to maintain your weight.")
-
-sex = input("Are you male (enter 'm') or female (enter 'f')?")
-sex.lower()
-if sex != 'm' and sex!= 'f':
-    print ("Invalid user input.")
-
-weight = input('What is your weight, in pounds?')
-
-height = input('What is your height, in inches?')
-
-age = input('What is your age, in years?')
-
-BMR = BMR_calc(weight, height, age, sex)
+def AskBMI()
+    print ("We will now calculate the amount of calories required to maintain your weight.")
+    sex = input("Are you male (enter 'm') or female (enter 'f')?")
+    sex.lower()
+    if sex != 'm' and sex!= 'f':
+        print ("Invalid user input.")
+    weight = input('What is your weight, in pounds?')
+    height = input('What is your height, in inches?')
+    age = input('What is your age, in years?')
+    BMR = BMR_calc(weight, height, age, sex)
+    return BMR
 
 
 activity = input('On a scale of 1 to 5, how active are you?')
