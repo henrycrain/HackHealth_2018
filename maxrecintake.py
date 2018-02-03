@@ -2,16 +2,16 @@ import formula
 import FoodSearch
 
 max_fat = 65 * formula.x / 2000
-#grams
+# grams
 
 max_sodium = 2400 * formula.x / 2000
-#mg
+# mg
 
 max_carbs = 300 * formula.x / 2000
-#grams
+# grams
 
 max_protein = 50 * formula.x / 2000
-#grams
+# grams
 
 
 if max_fat < FoodSearch.TotalFat:

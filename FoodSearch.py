@@ -1,4 +1,4 @@
-#Searches foods dictionary
+# Searches foods dictionary
 
 import Foods
 import menu
@@ -34,5 +34,3 @@ print("Total Sodium: ", TotalSodium, "mg")
 print("Total Carbs: ", TotalCarbs, "g")
 print("Total Protein: ", TotalProtein, "g")
 print()
-
-

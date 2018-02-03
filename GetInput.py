@@ -1,4 +1,4 @@
-#Combines formula and Food Search
+# Combines formula and Food Search
 
 import formula
 
@@ -8,6 +8,3 @@ if len(continueprogram) >= 0:
     import FoodSearch
 
 import maxrecintake
-
-
-
